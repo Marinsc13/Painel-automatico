@@ -1,0 +1,71 @@
+/* ===== FUNDO ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+
+    background: linear-gradient(135deg, #e6ccff, #caa6ff);
+    color: #4b2e83;
+}
+
+/* ===== TÍTULO ===== */
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* ===== BOTÃO ===== */
+.btn {
+    background: linear-gradient(135deg, #d291ff, #b57cff);
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(123, 97, 255, 0.4);
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #c07cff, #a95cff);
+}
+
+/* ===== ÁREA DAS TABUADAS ===== */
+#resultado {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* ===== CARD ===== */
+.tabuada {
+    background: #ffffffcc;
+    color: #4b2e83;
+    width: 180px;
+    padding: 20px;
+    border-radius: 18px;
+
+    box-shadow:
+        0 8px 20px rgba(150, 120, 255, 0.3);
+
+    transition: 0.3s;
+}
+
+/* Hover fofinho */
+.tabuada:hover {
+    transform: translateY(-6px) scale(1.02);
+}
+
+/* ===== TÍTULO DO CARD ===== */
+.tabuada h3 {
+    background: linear-gradient(135deg, #d6a8ff, #b57cff);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
